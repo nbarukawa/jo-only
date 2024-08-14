@@ -94,20 +94,3 @@ for (var i = 0; i < number.length; i++) {
       }
   });
 }
-
-function displayPersonalizedMessage(result) {
-  var message = "made this code for Joseph only… if you’re not my Vince you should LEAVE!\n\nLOVE pls enter the following:\n\n";
-  
-  // Add specific messages based on the result
-  if (result === 143) {
-    message += "1. 70+73 = or whatever numbers result to 143";
-  } else if (result === 50) {
-    message += "2. 25 * 2 = or whatever numbers result to 50";
-  } else if (result === 100) {
-    message += "3. 80 + 20 = or whatever numbers result to 100";
-  } else {
-    message += "4. or tbh just compute any number";
-  }
-  
-  document.getElementById("output-value").innerText += "\n" + message;
-}
